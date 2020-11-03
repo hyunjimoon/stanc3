@@ -1210,7 +1210,7 @@ let () =
   add_qualified
     ( "interp1"
     , ReturnType (UArray UReal)
-    , [(DataOnly, UReal); (DataOnly, UReal); (AutoDiffable, UArray UReal)] );
+    , [(DataOnly, UArray UReal); (DataOnly, UArray UReal); (AutoDiffable, UArray UReal)] );
   add_unqualified
     ("inv_wishart_log", ReturnType UReal, [UMatrix; UReal; UMatrix]) ;
   add_unqualified
